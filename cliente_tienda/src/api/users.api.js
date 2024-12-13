@@ -2,7 +2,7 @@
 
 
 const UserApi = axios.create({
-    baseURL: 'https://proyecto-desarrollo.onrender.com/api/',
+    baseURL: 'http://localhost:8000',
 });
 
 

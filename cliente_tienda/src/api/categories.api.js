@@ -1,6 +1,6 @@
 import axios from 'axios'
 const categoriaApi= axios.create({
-    baseURL:'https://proyecto-desarrollo.onrender.com/api/'
+    baseURL:'http://localhost:8000/api/categorias/'
 })
 
 export const getAllCategories = () => categoriaApi.get("/")
