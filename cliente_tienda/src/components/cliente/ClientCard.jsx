@@ -92,7 +92,6 @@ export function ClientCard({ product }) {
                         color: "#fff"
                     }
                 })
-                window.location.reload();
             } catch (error) {
                 console.error(error);
                 toast.error('Error al eliminar el producto de favoritos');

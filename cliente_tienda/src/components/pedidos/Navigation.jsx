@@ -187,7 +187,6 @@ export function Navigation() {
                   onClick={() => {
                     navigate('/pedidosFilter/'+'1');
                     setIsPedidoDropdownOpen(false);
-                    window.location.reload();
                   }}
                 >
                   Entregados
@@ -197,7 +196,6 @@ export function Navigation() {
                   onClick={() => {
                     navigate('/pedidosFilter/'+'0');
                     setIsPedidoDropdownOpen(false);
-                    window.location.reload();
                   }}
                 >
                   Pendientes
